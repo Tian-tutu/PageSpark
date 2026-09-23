@@ -66,7 +66,7 @@ try{
  if(scope!=='all'&&!library.books.some(b=>b.id===scope))scope='all';
  if(new URLSearchParams(location.search).get('mode')==='reader'){
   const quoteId=new URLSearchParams(location.search).get('quote');book=library.books.find(b=>b.quotes.some(q=>q.id===quoteId))||library.books[0];
-  $('calendar').hidden=true;$('reader').hidden=false;document.title='引句 · '+book.title;await startReader(book,api); 
+  $('calendar').hidden=true;$('reader').hidden=false;document.title='PageSpark · '+book.title;await startReader(book,api); 
  }else{
   chooseNext();installPicker();recolor();
   const params=new URLSearchParams(location.search);

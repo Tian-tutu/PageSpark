@@ -17,7 +17,7 @@ function showQuote(next=false,source='manual') {
 }
 function openReader(id){
  if(!readerWindow||readerWindow.isDestroyed()){
-  readerWindow=new BrowserWindow({width:1100,height:850,minWidth:700,minHeight:560,backgroundColor:'#faf9f6',title:'引句 · 阅读',autoHideMenuBar:true,webPreferences:options()});
+  readerWindow=new BrowserWindow({width:1100,height:850,minWidth:700,minHeight:560,backgroundColor:'#faf9f6',title:'PageSpark · 阅读',autoHideMenuBar:true,webPreferences:options()});
   secure(readerWindow);readerWindow.loadURL(origin+'/index.html?mode=reader&quote='+encodeURIComponent(id));
  }else{readerWindow.loadURL(origin+'/index.html?mode=reader&quote='+encodeURIComponent(id));readerWindow.show();}
  quoteWindow.hide();
@@ -52,14 +52,14 @@ else app.whenReady().then(async()=>{
  try{state=JSON.parse(fs.readFileSync(statePath(),'utf8'));}catch{state={};}
  state={likes:[],events:[],reminders:false,keep:true,pauseUntil:0,times:['12:30','20:30'],...state};
  await createServer();
- quoteWindow=new BrowserWindow({...safeRect(),frame:false,resizable:true,minWidth:350,minHeight:540,alwaysOnTop:true,show:false,backgroundColor:'#faf9f6',title:'引句 · 今日书页',webPreferences:options()});
+ quoteWindow=new BrowserWindow({...safeRect(),frame:false,resizable:true,minWidth:350,minHeight:540,alwaysOnTop:true,show:false,backgroundColor:'#faf9f6',title:'PageSpark · 今日书页',webPreferences:options()});
  secure(quoteWindow);await quoteWindow.loadURL(origin+'/index.html');
  quoteWindow.showInactive();
  quoteWindow.on('close',e=>{if(!quitting){e.preventDefault();quoteWindow.hide();}});
  quoteWindow.on('moved',()=>{state.bounds=quoteWindow.getBounds();save();});
  const pixels=Buffer.alloc(16*16*4);for(let y=2;y<14;y++)for(let x=3;x<13;x++){let i=(y*16+x)*4;pixels[i]=60;pixels[i+1]=48;pixels[i+2]=39;pixels[i+3]=255; if(x===7||y===5||y===9){pixels[i]=245;pixels[i+1]=241;pixels[i+2]=231;}}
- tray=new Tray(nativeImage.createFromBitmap(pixels,{width:16,height:16}));tray.setToolTip('引句 · 今日书页');
- tray.setContextMenu(Menu.buildFromTemplate([{label:'打开今日书页',click:()=>showQuote()},{label:'十秒后展示一页（演示）',click:()=>scheduleDemo()},{label:'暂停一小时',click:()=>{state.pauseUntil=Date.now()+3600000;save();quoteWindow.hide();}},{type:'separator'},{label:'退出引句',click:()=>app.quit()}]));
+ tray=new Tray(nativeImage.createFromBitmap(pixels,{width:16,height:16}));tray.setToolTip('PageSpark · 今日书页');
+ tray.setContextMenu(Menu.buildFromTemplate([{label:'打开今日书页',click:()=>showQuote()},{label:'十秒后展示一页（演示）',click:()=>scheduleDemo()},{label:'暂停一小时',click:()=>{state.pauseUntil=Date.now()+3600000;save();quoteWindow.hide();}},{type:'separator'},{label:'退出 PageSpark',click:()=>app.quit()}]));
  tray.on('double-click',()=>showQuote());
  powerMonitor.on('lock-screen',()=>{locked=true;quoteWindow.hide();});powerMonitor.on('unlock-screen',()=>locked=false);
  app.on('second-instance',()=>showQuote());

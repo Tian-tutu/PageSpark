@@ -1,14 +1,14 @@
 {
-  "name": "yinqju-reading-demo",
-  "version": "2.0.0",
+  "name": "pagespark-reading-demo",
+  "version": "2.0.1",
   "private": true,
-  "description": "引句 · 文学日历与原文阅读",
+  "description": "PageSpark · AI-powered reading excerpts",
   "main": "electron/main.cjs",
   "scripts": {
     "start": "electron .",
     "prepare:book": "node scripts/prepare-book.cjs",
     "check": "node --check electron/main.cjs && node --check src/app.js",
-    "dist:win": "electron-builder --win nsis"
+    "dist:win": "electron-builder --win nsis --publish never"
   },
   "dependencies": {
     "@xmldom/xmldom": "0.9.12",
@@ -20,8 +20,8 @@
     "electron-builder": "^26.0.12"
   },
   "build": {
-    "appId": "com.yinju.reading",
-    "productName": "引句",
+    "appId": "com.pagespark.reading",
+    "productName": "PageSpark",
     "asar": true,
     "files": [
       "electron/**/*",
@@ -42,13 +42,13 @@
           "arch": ["x64"]
         }
       ],
-      "artifactName": "Yinju-Setup-${version}.${ext}"
+      "artifactName": "PageSpark-Setup-${version}.${ext}"
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
-      "shortcutName": "引句"
+      "shortcutName": "PageSpark"
     }
   }
 }
