@@ -1,0 +1,9 @@
+node_modules/
+qa/
+dist/
+*.log
+
+# Keep the shipped demo library, but never commit local reading state.
+data/user/
+data/*-state.json
+data/*.tmp

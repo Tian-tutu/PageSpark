@@ -1,0 +1,72 @@
+@font-face{font-family:Huiwen;src:url('/fonts/Huiwen.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+/* v2: a calmer fixed type size, including exported excerpts. */
+body[data-palette] #calendar .passage{font-size:18px;line-height:1.8;letter-spacing:.5px}
+body[data-palette] #calendar{padding-bottom:80px!important}
+body.export-image #calendar{padding-bottom:45px!important}
+/* Simplified bookmark chrome; keep old hidden nodes for saved-like compatibility. */
+body[data-palette] #calendar .calendar-footer{display:none}
+body[data-palette] .calendar{padding-bottom:85px!important}
+.book-bar{position:fixed!important;left:25px!important;right:25px!important;bottom:0!important;width:auto!important;padding:15px 0!important;font-size:20px!important;z-index:4}
+#book-dialog{inset:48px 12px auto auto!important;width:calc(100% - 24px)!important;max-width:390px!important;max-height:calc(100dvh - 65px)!important;border:1px solid var(--line)!important}
+.window-actions #book-picker{max-width:none}
+body.export-image .window-actions,body.export-image .book-bar{display:none!important}
+body.export-image #calendar{min-height:0!important;height:auto!important;padding-bottom:45px!important}
+/* Native desktop dragging: all non-interactive bookmark space is a handle. */
+#calendar,.book-bar{-webkit-app-region:drag;app-region:drag}
+#calendar button,#calendar button *, .book-bar button,.book-bar button *{-webkit-app-region:no-drag;app-region:no-drag}
+/* Disable underlying native hit regions while either modal is open. */
+body:has(dialog[open]) #calendar,body:has(dialog[open]) #calendar *,body:has(dialog[open]) .book-bar,body:has(dialog[open]) .book-bar *{-webkit-app-region:no-drag;app-region:no-drag}
+.book-bar{display:flex;justify-content:space-between;gap:20px;width:100%;border-top:1px solid var(--line);padding:15px 25px;background:var(--paper);position:sticky;bottom:0;font-family:Huiwen,serif;font-size:16px;z-index:3}
+.book-bar button:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:70%;text-align:left}
+.book-bar #next{white-space:nowrap}
+body[data-palette] .calendar{padding-bottom:18px!important;min-height:calc(100dvh - 55px)}
+#book-dialog{position:fixed;inset:auto 0 55px;margin:0;width:100%;max-width:none;max-height:calc(100dvh - 85px);overflow:auto;padding:18px 25px;background:var(--paper);border:0;border-top:1px solid var(--line);box-shadow:0 -15px 45px #0003;-webkit-app-region:no-drag}
+#book-dialog *{-webkit-app-region:no-drag}
+#book-dialog h2{margin:0 0 10px;font-family:Huiwen,serif}
+#book-dialog header button{font-size:25px}
+.book-option{display:block;width:100%;text-align:left;padding:12px 0 12px 29px;position:relative;font-family:Huiwen,serif;font-size:19px}
+.book-option:before{content:'';position:absolute;left:0;top:17px;width:14px;height:14px;border:1px solid currentColor;border-radius:50%}
+.book-option[aria-pressed=true]:before{background:var(--ink);box-shadow:inset 0 0 0 3px var(--paper)}
+.book-option small{display:block;font-family:var(--ui);font-size:11px;color:var(--muted);margin-top:6px}
+body:has(#book-dialog[open]) .date-block{-webkit-app-region:no-drag}
+body:has(#book-dialog[open]) .window-actions{visibility:hidden}
+/* Palette pairs are curated together, never randomly mixed. */
+body[data-palette]{--paper:#161819;--ink:#efabd8;--muted:#bf99b2;--line:#775f70;--body:Huiwen,'Songti SC',serif;background:var(--paper);color:var(--ink)}
+body[data-palette="lavender"]{--paper:#303e3d;--ink:#c3bdec;--muted:#aaa8c5;--line:#72758b}
+body[data-palette="moss"]{--paper:#3d4a20;--ink:#fff9dc;--muted:#d0d2ae;--line:#858c65}
+body[data-palette] .calendar{padding:58px 35px 25px;min-height:100dvh}
+body[data-palette] .day{font-family:Huiwen,Georgia,serif;font-size:100px;font-weight:400;letter-spacing:-5px}
+body[data-palette] .month{font-family:Georgia,serif;font-size:16px;font-weight:400;letter-spacing:2px;margin-top:9px}
+body[data-palette] .weekday{font-family:var(--body);font-size:19px;margin-top:14px}
+body[data-palette] .rule{width:22px;margin:29px 0 62px;background:var(--ink);opacity:.65}
+body[data-palette] .passage{font-family:var(--body);font-size:21px;font-weight:400;line-height:1.85;letter-spacing:.8px;flex-shrink:0}
+body[data-palette] .passage.short{font-size:21px;line-height:1.85;margin:0;text-wrap:pretty}
+body[data-palette] .attribution{font-family:var(--body);font-size:18px;margin-top:62px;letter-spacing:.4px}
+body[data-palette] .author{font-size:17px;color:var(--ink);margin-top:6px}
+body[data-palette] .calendar-footer{min-height:55px;display:flex;align-items:flex-end;justify-content:space-between;gap:10px;padding-top:30px}
+body[data-palette] .imprint{font-family:var(--body);font-size:13px;letter-spacing:1px;color:var(--muted)}
+body[data-palette] .reading-actions{font-family:var(--body);margin:0;gap:17px;font-size:14px;color:var(--ink);opacity:1}
+body[data-palette] .reading-actions button{padding:0}
+body[data-palette] .counter{position:static;color:var(--muted);font-family:Georgia,serif;font-size:10px;white-space:nowrap;padding-bottom:2px}
+body[data-palette] .window-actions{color:var(--muted)}
+body[data-palette] button:hover,body[data-palette] .reading-actions button[aria-pressed=true]{color:var(--ink);text-decoration:underline;text-underline-offset:5px}
+body[data-palette] button:focus-visible,body[data-palette] input:focus-visible{outline-color:var(--ink)}
+body[data-palette] .calendar.long{padding-top:34px}
+body[data-palette] .calendar.long .day{font-size:72px}
+body[data-palette] .calendar.long .rule{margin:22px 0 26px}
+body[data-palette] .calendar.long .passage{font-size:21px;line-height:1.85}
+body[data-palette] .calendar.long .attribution{margin-top:28px}
+body[data-palette] dialog{border-color:var(--line)}
+body[data-palette] .setting-row,body[data-palette] .settings-note,body[data-palette] .times input{border-color:var(--line)}
+body[data-palette] .settings-note{color:var(--muted)}
+body[data-palette] .setting-row input{accent-color:var(--ink)}
+body[data-palette] input[type=time]{color-scheme:dark}
+body[data-palette] .calendar.compact{padding-top:28px}
+body[data-palette] .calendar.compact .day{font-size:54px}
+body[data-palette] .calendar.compact .month{font-size:13px}
+body[data-palette] .calendar.compact .weekday{font-size:15px;margin-top:8px}
+body[data-palette] .calendar.compact .rule{margin:16px 0 22px}
+body[data-palette] .calendar.compact .attribution{margin-top:20px;font-size:16px}
+body[data-palette] .calendar.compact .calendar-footer{padding-top:20px}
+@media(max-height:700px){body[data-palette] .calendar{padding-top:35px}body[data-palette] .day{font-size:76px}body[data-palette] .rule{margin:22px 0 32px}body[data-palette] .attribution{margin-top:30px}}
+@media(max-width:380px){body[data-palette] .calendar{padding-left:26px;padding-right:26px}body[data-palette] .reading-actions{gap:12px}}

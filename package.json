@@ -1,0 +1,54 @@
+{
+  "name": "yinqju-reading-demo",
+  "version": "2.0.0",
+  "private": true,
+  "description": "引句 · 文学日历与原文阅读",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "prepare:book": "node scripts/prepare-book.cjs",
+    "check": "node --check electron/main.cjs && node --check src/app.js",
+    "dist:win": "electron-builder --win nsis"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "0.9.12",
+    "epubjs": "0.3.93",
+    "jszip": "3.10.2"
+  },
+  "devDependencies": {
+    "electron": "^40.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.yinju.reading",
+    "productName": "引句",
+    "asar": true,
+    "files": [
+      "electron/**/*",
+      "src/**/*",
+      "data/**/*",
+      "assets/**/*",
+      "scripts/**/*",
+      "package.json",
+      "pnpm-lock.yaml"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ],
+      "artifactName": "Yinju-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "引句"
+    }
+  }
+}

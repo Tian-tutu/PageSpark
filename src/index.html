@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>引句 · 今日书页</title><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/settings-fix.css"></head>
+<body>
+ <link rel="stylesheet" href="/bookmark.css">
+ <main id="calendar" class="calendar">
+  <div class="window-actions"><button id="settings" aria-label="设置" title="设置"><svg viewBox="0 0 24 24"><path d="M5 7h14M5 17h14M9 4v6M15 14v6"/></svg></button><button id="close" aria-label="收起到托盘" title="收起到托盘"><svg viewBox="0 0 24 24"><path d="M7 7 17 17M17 7 7 17"/></svg></button></div>
+  <header class="date-block"><div id="day" class="day"></div><div id="month" class="month"></div><div id="weekday" class="weekday"></div></header>
+  <div class="rule"></div>
+  <button id="passage" class="passage" title="点击进入原文"><span id="quote"></span></button>
+  <div class="attribution"><div>《你的夏天还好吗？》</div><div class="author">金爱烂</div></div>
+  <footer class="calendar-footer"><span class="imprint">引句</span><div class="reading-actions"><button id="like" aria-pressed="false">喜欢</button><button id="read">读下去 <svg viewBox="0 0 24 24"><path d="M4 12h15m-5-5 5 5-5 5"/></svg></button><button id="next">换一页</button></div><span id="counter" class="counter"></span></footer>
+ </main>
+ <main id="reader" hidden>
+  <header class="reader-toolbar"><button id="return"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7"/></svg> 今日书页</button><button id="toc-toggle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5h12M8 12h12M8 19h12M3 5h.1M3 12h.1M3 19h.1"/></svg> 目录</button><span id="chapter-label"></span><button id="font-down" aria-label="减小字号">A−</button><button id="font-up" aria-label="增大字号">A＋</button></header>
+  <div class="reader-layout">
+   <nav id="toc" aria-label="章节目录" hidden></nav>
+   <section class="reader-page"><div id="reader-status" role="status">正在打开书页…</div><div id="viewer"></div></section>
+  </div>
+  <footer class="reader-bottom"><button id="previous-page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7"/></svg> 上一页</button><span id="location-label">你的夏天还好吗？ · 金爱烂</span><button id="next-page">下一页 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button></footer>
+ </main>
+ <dialog id="preferences" aria-labelledby="preferences-title">
+  <header><div><h2 id="preferences-title">设置</h2><p class="settings-subtitle">让书页，按你的节奏来。</p></div><button id="preferences-close" type="button" aria-label="关闭设置" title="关闭设置"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 7 10 10M17 7 7 17"/></svg></button></header>
+  <div class="settings-group">
+   <label class="setting-row"><span>保持书页显示<small>关闭后，无操作 45 秒收起</small></span><input id="keep" type="checkbox" role="switch"></label>
+   <label class="setting-row"><span>每天主动展示<small>应用在托盘运行时生效</small></span><input id="reminders" type="checkbox" role="switch"></label>
+  </div>
+  <h3 class="settings-section-title">展示时间</h3>
+  <div class="times settings-group"><label class="time-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg><input id="time1" type="time" aria-label="第一次提醒时间"></label><label class="time-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg><input id="time2" type="time" aria-label="第二次提醒时间"></label></div>
+  <div class="settings-group settings-actions">
+   <button class="setting-button" id="demo"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4z"/></svg><span>演示：收起，十秒后出现</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+   <button class="setting-button" id="pause"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg><span>暂停一小时</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+   <button class="setting-button" id="export"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9zM14 3v6h6M8 13h8M8 17h5"/></svg><span>导出使用记录</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+  </div>
+  <p id="settings-status" role="status"></p>
+ </dialog>
+ <script src="/vendor/jszip.js"></script><script src="/vendor/epub.js"></script><script type="module" src="/app.js"></script>
+</body></html>

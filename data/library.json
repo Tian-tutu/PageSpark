@@ -1,0 +1,716 @@
+{
+  "books": [
+    {
+      "id": "summer",
+      "title": "你的夏天还好吗？",
+      "author": "金爱烂",
+      "type": "小说",
+      "epub": "/data/library/summer.epub",
+      "chapters": [
+        {
+          "href": "33 - 副本 - 副本.html",
+          "title": "你的夏天还好吗？"
+        },
+        {
+          "href": "33 - 副本.html",
+          "title": "你的夏天还好吗？"
+        },
+        {
+          "href": "text00000.html",
+          "title": "你的夏天还好吗？"
+        },
+        {
+          "href": "text00001.html",
+          "title": "你的夏天还好吗？"
+        },
+        {
+          "href": "text00002.html",
+          "title": "你的夏天还好吗？"
+        },
+        {
+          "href": "text00003.html",
+          "title": "译者序"
+        },
+        {
+          "href": "text00004.html",
+          "title": "你的夏天还好吗？"
+        },
+        {
+          "href": "text00005.html",
+          "title": "你的夏天还好吗？"
+        },
+        {
+          "href": "text00006.html",
+          "title": "虫子"
+        },
+        {
+          "href": "text00007.html",
+          "title": "水中的歌利亚"
+        },
+        {
+          "href": "text00008.html",
+          "title": "那里是夜，这里有歌"
+        },
+        {
+          "href": "text00009.html",
+          "title": "一天的轴"
+        },
+        {
+          "href": "text00010.html",
+          "title": "角质层"
+        },
+        {
+          "href": "text00011.html",
+          "title": "尼克塔酒店"
+        },
+        {
+          "href": "text00012.html",
+          "title": "三十岁"
+        },
+        {
+          "href": "text00013.html",
+          "title": "作家的话"
+        },
+        {
+          "href": "text00014.html",
+          "title": "韩国文学丛书书目"
+        },
+        {
+          "href": "text00015.html",
+          "title": "你的夏天还好吗？"
+        },
+        {
+          "href": "text00016.html",
+          "title": "你的夏天还好吗？"
+        }
+      ],
+      "quotes": [
+        {
+          "id": "summer-0",
+          "text": "人生很难遇到真正有共同语言的人。我记得在没有电视也没有电脑的阴湿自炊房里，偶尔能看到前辈的短信，真的让我倍感欣喜。夜深人静，看到通知新消息的微弱灯光，我的心也跟着红光闪烁。只有那个年纪才能写出的单纯而幼稚的句子曾让我深深依赖。",
+          "href": "text00005.html",
+          "chapter": "你的夏天还好吗？"
+        },
+        {
+          "id": "summer-1",
+          "text": "前辈说喜欢我的文笔。我以为喜欢我文笔的人当然也会喜欢我。我用妈妈给我的取暖费请前辈喝酒，即使裹着风衣在结冰的房间里睡觉都觉得幸福。因为那天，前辈第一次让我请他喝酒。",
+          "href": "text00005.html",
+          "chapter": "你的夏天还好吗？"
+        },
+        {
+          "id": "summer-2",
+          "text": "显示器上缓缓闪过人们的身影。每当看到熟悉的面容，我和前辈就会笑嘻嘻地评头品足。终于，我的照片出现了。那是以樱花做背景，在学校楼顶拍的单人照。拿相机的人在对面楼里按下快门，窗户周围四边形的黑暗像镜框一样包围着春天。我站在春天中间。",
+          "href": "text00005.html",
+          "chapter": "你的夏天还好吗？"
+        },
+        {
+          "id": "summer-3",
+          "text": "前辈也知道吗？我惦念他这么多年了。有憧憬，也有喜欢。也许是，也许不是。是不是都无所谓。反正前辈已经有女朋友了。我觉得自己没有能力战胜他们积累的时间。那个素昧平生的女人，我确信她比我好。前辈选择的女人嘛，当然好了。我心里真想连那个女人也一起爱。",
+          "href": "text00005.html",
+          "chapter": "你的夏天还好吗？"
+        },
+        {
+          "id": "summer-4",
+          "text": "听到某首曲子，我会想起第一次让我听到这首曲子的人，而且很频繁。第一次走过的路，第一次读过的书也是这样。总会想起第一次让我知道世界上有这种东西的人。也许应该说是“让我知道名字的人的名字”？这东西似乎永远跟随着事物。",
+          "href": "text00005.html",
+          "chapter": "你的夏天还好吗？"
+        }
+      ]
+    },
+    {
+      "id": "return",
+      "title": "回归故里",
+      "author": "迪迪埃·埃里蓬",
+      "type": "社会纪实",
+      "epub": "/data/library/return.epub",
+      "chapters": [
+        {
+          "href": "text/part0000.html",
+          "title": "回归故里"
+        },
+        {
+          "href": "text/part0001.html",
+          "title": "回归故里"
+        },
+        {
+          "href": "text/part0002.html",
+          "title": "目录"
+        },
+        {
+          "href": "text/part0003_split_000.html",
+          "title": "一"
+        },
+        {
+          "href": "text/part0003_split_001.html",
+          "title": "2"
+        },
+        {
+          "href": "text/part0003_split_002.html",
+          "title": "3"
+        },
+        {
+          "href": "text/part0003_split_003.html",
+          "title": "4"
+        },
+        {
+          "href": "text/part0004_split_000.html",
+          "title": "二"
+        },
+        {
+          "href": "text/part0004_split_001.html",
+          "title": "2"
+        },
+        {
+          "href": "text/part0004_split_002.html",
+          "title": "3"
+        },
+        {
+          "href": "text/part0004_split_003.html",
+          "title": "4"
+        },
+        {
+          "href": "text/part0005_split_000.html",
+          "title": "三"
+        },
+        {
+          "href": "text/part0005_split_001.html",
+          "title": "2"
+        },
+        {
+          "href": "text/part0006_split_000.html",
+          "title": "四"
+        },
+        {
+          "href": "text/part0006_split_001.html",
+          "title": "2"
+        },
+        {
+          "href": "text/part0006_split_002.html",
+          "title": "3"
+        },
+        {
+          "href": "text/part0007_split_000.html",
+          "title": "五"
+        },
+        {
+          "href": "text/part0007_split_001.html",
+          "title": "2"
+        },
+        {
+          "href": "text/part0007_split_002.html",
+          "title": "3"
+        },
+        {
+          "href": "text/part0008_split_000.html",
+          "title": "终章"
+        },
+        {
+          "href": "text/part0008_split_001.html",
+          "title": "2"
+        },
+        {
+          "href": "titlepage.xhtml",
+          "title": "回归故里"
+        }
+      ],
+      "quotes": [
+        {
+          "id": "return-0",
+          "text": "我可以重新找回这片“自我的空间”（热内②会这么说），这个我曾极力逃离的地方：一片我曾刻意疏离的社会空间、一片在我成长过程中充当反面教材的精神空间，也是无论我如何反抗，依然构成我精神内核的家乡。我回到家，看望母亲。我开始与母亲和解。或更准确地说，与自己和解，与从前一直拒绝、抵制、否认的那部分自己和解。",
+          "href": "text/part0003_split_000.html",
+          "chapter": "一"
+        },
+        {
+          "id": "return-1",
+          "text": "当读过安妮·埃尔诺（Annie Ernaux）关于她的父母及他们之间“阶级差距”的作品后，我清楚地意识到在那张饭桌上我经历了什么。她在书中完美地解释了这种不适感，即当我们离开家庭和以前的世界（无论如何我们依然属于它们）许久之后“重回”父母身边时，我们会感受到一种抽离感，无论是在家还是在我们新融入的世界，这种抽离感都会伴随我们。",
+          "href": "text/part0003_split_001.html",
+          "chapter": "2"
+        },
+        {
+          "id": "return-2",
+          "text": "她一辈子渴望的，不是财富，而是阳光、自由。如果她过去坚持上学，也许有机会获得这份自由。“我本来想做小学老师，”今天她说道，因为，“在那个年代，女孩子上完学，只能去做小学老师。”她的理想并不高远。即便这样，这一理想也难以实现。",
+          "href": "text/part0004_split_000.html",
+          "chapter": "二"
+        },
+        {
+          "id": "return-3",
+          "text": "如同鲍德温对于父亲的思考，我终于意识到，我父亲身上那种我所排斥和厌恶的东西，是社会强加于他的。他原本就安于自己工人阶级的身份，后来他地位有所提高，于是更加骄傲，即便这种提高非常有限。但工人身份也带给他无数的羞辱，并让他的生活局限得可怜。这一身份还让他处于一种难以逃脱的愚蠢之中，这种愚蠢使他难以与他人形成良好的交往。",
+          "href": "text/part0003_split_002.html",
+          "chapter": "3"
+        },
+        {
+          "id": "return-4",
+          "text": "我们住在同一座城市，却好像生活在不同的星球。他一直保持着对音乐的热情，似乎因为成功地改编过几张专辑而在音乐界获得了一定的声誉。也就是说没什么遗憾了：少年时期的友谊早已结束，我们还能说什么呢？毕竟，这段关系只持续了三四年。而且我猜测，这段关系对他来说并没有对我来说重要。",
+          "href": "text/part0006_split_001.html",
+          "chapter": "2"
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "title": "好能量",
+      "author": "凯西·米恩斯",
+      "type": "健康科普",
+      "epub": "/data/library/energy.epub",
+      "chapters": [
+        {
+          "href": "9780593712665_nav.xhtml",
+          "title": "Table of Contents"
+        },
+        {
+          "href": "xhtml/01_Cover.xhtml",
+          "title": "好能量"
+        },
+        {
+          "href": "xhtml/02_Praise_for_Good_Energ.xhtml",
+          "title": "赞美良好的能量"
+        },
+        {
+          "href": "xhtml/05_Dedication.xhtml",
+          "title": "好能量"
+        },
+        {
+          "href": "xhtml/07_Introduction_Everythi.xhtml",
+          "title": "引言"
+        },
+        {
+          "href": "xhtml/08_Part_1_The_Truth_Abou.xhtml",
+          "title": "第一部分"
+        },
+        {
+          "href": "xhtml/09_Chapter_1_Siloed_Heal.xhtml",
+          "title": "第一章"
+        },
+        {
+          "href": "xhtml/10_Chapter_2_Bad_Energy_.xhtml",
+          "title": "第二章"
+        },
+        {
+          "href": "xhtml/11_Chapter_3_Trust_Yours.xhtml",
+          "title": "第三章"
+        },
+        {
+          "href": "xhtml/12_Part_2_Creating_Good_.xhtml",
+          "title": "第二部分"
+        },
+        {
+          "href": "xhtml/13_Chapter_4_Your_Body_H.xhtml",
+          "title": "第四章"
+        },
+        {
+          "href": "xhtml/14_Chapter_5_The_Six_Pri.xhtml",
+          "title": "第五章"
+        },
+        {
+          "href": "xhtml/15_Chapter_6_Creating_a_.xhtml",
+          "title": "第六章"
+        },
+        {
+          "href": "xhtml/16_Chapter_7_Respecting_.xhtml",
+          "title": "第七章"
+        },
+        {
+          "href": "xhtml/17_Chapter_8_Replenishin.xhtml",
+          "title": "第八章"
+        },
+        {
+          "href": "xhtml/18_Chapter_9_Fearlessnes.xhtml",
+          "title": "第九章"
+        },
+        {
+          "href": "xhtml/19_Part_3_The_Good_Energ.xhtml",
+          "title": "第三部分"
+        },
+        {
+          "href": "xhtml/20_Part.xhtml",
+          "title": "四周获得良好能量"
+        },
+        {
+          "href": "xhtml/21_Part_4_Good_Energy_Re.xhtml",
+          "title": "第 4 部分"
+        },
+        {
+          "href": "xhtml/22_Chapter.xhtml",
+          "title": "早餐"
+        },
+        {
+          "href": "xhtml/23_Chapter.xhtml",
+          "title": "午餐"
+        },
+        {
+          "href": "xhtml/24_Chapter.xhtml",
+          "title": "晚餐"
+        },
+        {
+          "href": "xhtml/25_Chapter.xhtml",
+          "title": "小吃/酱料/配菜/甜点"
+        },
+        {
+          "href": "xhtml/26_Acknowledgments.xhtml",
+          "title": "致谢"
+        },
+        {
+          "href": "xhtml/27_Index.xhtml",
+          "title": "Index"
+        },
+        {
+          "href": "xhtml/About_the_Author.xhtml",
+          "title": "关于作者"
+        }
+      ],
+      "quotes": [
+        {
+          "id": "energy-0",
+          "text": "食物是来自外部世界的信息，可以直接激活和抑制你体内深处的基因通路。食物不仅仅是结构砖块，它还是一种信号分子，指导细胞和整体身体的关键功能，包括我们的基因如何表达。它可以像激素一样在激素受体上发挥作用，并可以直接产生或缓解氧化压力。它可以通过作为化学反应的辅因子来改变蛋白酶的功能，就像锁中的钥匙，开启细胞内制造 ATP 或执行其他工作的机器。",
+          "href": "xhtml/14_Chapter_5_The_Six_Pri.xhtml",
+          "chapter": "第五章"
+        },
+        {
+          "id": "energy-1",
+          "text": "你可能听过“线粒体”这个词，也许你在高中生物课上知道它是“细胞的动力源”。线粒体将食物能量转化为细胞能量。这些微小的细胞器是变压器：它们将我们所吃食物的分解产物转化为细胞可以用来完成多种工作的能量货币。身体中不同类型的细胞——肝脏、皮肤、大脑、卵巢、眼睛等等——内部的线粒体数量差异巨大。有些细胞内部有数十万个；而其他细胞则只有少量，这取决于该细胞必须完成的工作类型以及其为完成该工作所需的能量。",
+          "href": "xhtml/09_Chapter_1_Siloed_Heal.xhtml",
+          "chapter": "第一章"
+        },
+        {
+          "id": "energy-2",
+          "text": "让我们从细胞的角度思考食物是什么：你身体内部温暖、潮湿且黑暗。你体内的三十七万亿个细胞大多数生活在潮湿的黑暗中，静静等待信号和信息，以便知道该做什么以及何时做，以便给你一个美好的生活。细胞显然不能看、听或闻。它们只有膜上的受体和通道，允许它们通过耐心等待漂浮而来的营养物质来接收输入，以便吸收并利用这些营养物质来完成它们的工作。",
+          "href": "xhtml/14_Chapter_5_The_Six_Pri.xhtml",
+          "chapter": "第五章"
+        },
+        {
+          "id": "energy-3",
+          "text": "细胞信号传导：在细胞内部，所有活动通过细胞信号传导进行协调——微观生化信息不断在细胞内外运输，以提供关于需要做什么、物质需要去哪里以及需要开启和关闭什么的指令和信息。例如，在身体努力将餐后血糖恢复到正常水平时，身体会产生胰岛素。胰岛素与细胞表面结合，启动细胞内部的一系列信号，促使细胞将葡萄糖通道发送到细胞膜，以允许葡萄糖流入。",
+          "href": "xhtml/09_Chapter_1_Siloed_Heal.xhtml",
+          "chapter": "第一章"
+        },
+        {
+          "id": "energy-4",
+          "text": "为了从有意识的无能转变为有意识的能干，或者从有意识的能干转变为无意识的能干，你的生活中必须具备什么条件？我鼓励你反思实现这些习惯的创造性方法以及可能阻碍它们的现实因素。不要因为理由而限制自己，认为这对你或你的生活行不通；要放眼大局，让自己想象这些习惯是如何可能的。",
+          "href": "xhtml/20_Part.xhtml",
+          "chapter": "四周获得良好能量"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "身体由我",
+      "author": "希拉·德利兹",
+      "type": "身体科普",
+      "epub": "/data/library/body.epub",
+      "chapters": [
+        {
+          "href": "text/part0000.html",
+          "title": "身体由我"
+        },
+        {
+          "href": "text/part0001.html",
+          "title": "身体由我"
+        },
+        {
+          "href": "text/part0002.html",
+          "title": "身体由我"
+        },
+        {
+          "href": "text/part0003.html",
+          "title": "身体由我"
+        },
+        {
+          "href": "text/part0004.html",
+          "title": "阅读指南"
+        },
+        {
+          "href": "text/part0005.html",
+          "title": "导言"
+        },
+        {
+          "href": "text/part0006_split_000.html",
+          "title": "第一章\n  比基尼泳裤里的奇妙居民"
+        },
+        {
+          "href": "text/part0006_split_001.html",
+          "title": "阴蒂——一位深藏功与名的女英雄"
+        },
+        {
+          "href": "text/part0006_split_002.html",
+          "title": "阴唇——从“芭比娃娃式”到“蝙蝠女侠式”"
+        },
+        {
+          "href": "text/part0006_split_003.html",
+          "title": "阴道口——开门大吉"
+        },
+        {
+          "href": "text/part0006_split_004.html",
+          "title": "阴毛及其造型——美式、巴西式还是日式？"
+        },
+        {
+          "href": "text/part0007_split_000.html",
+          "title": "第二章\n  性爱与那声销魂的“哦”"
+        },
+        {
+          "href": "text/part0007_split_001.html",
+          "title": "刺激阴道还是阴蒂？还是都行？"
+        },
+        {
+          "href": "text/part0007_split_002.html",
+          "title": "自己的快乐自己给"
+        },
+        {
+          "href": "text/part0007_split_003.html",
+          "title": "爱之殇——当性交造成疼痛"
+        },
+        {
+          "href": "text/part0007_split_004.html",
+          "title": "做爱不如追剧？"
+        },
+        {
+          "href": "text/part0007_split_005.html",
+          "title": "前路茫茫——无法达到性高潮怎么办？"
+        },
+        {
+          "href": "text/part0008_split_000.html",
+          "title": "第三章\n  月经——一场暗潮涌动的红毯秀"
+        },
+        {
+          "href": "text/part0008_split_001.html",
+          "title": "你看到的我是红色的——当月经过多时"
+        },
+        {
+          "href": "text/part0008_split_002.html",
+          "title": "又来了？——如果月经来得太频繁"
+        },
+        {
+          "href": "text/part0008_split_003.html",
+          "title": "痛经——你还是一枪毙了我吧！"
+        },
+        {
+          "href": "text/part0008_split_004.html",
+          "title": "怎么还不来？——“大姨妈”迟到的原因"
+        },
+        {
+          "href": "text/part0008_split_005.html",
+          "title": "“血淋淋”日子里的专属用品"
+        },
+        {
+          "href": "text/part0008_split_006.html",
+          "title": "经期行鱼水之欢？[7]"
+        },
+        {
+          "href": "text/part0009_split_000.html",
+          "title": "第四章\n  阴道正常，身体健康！如果有点不对劲呢？"
+        },
+        {
+          "href": "text/part0009_split_001.html",
+          "title": "外阴瘙痒"
+        },
+        {
+          "href": "text/part0009_split_002.html",
+          "title": "胯间的“海鲜铺子”——如果外阴有异味"
+        },
+        {
+          "href": "text/part0009_split_003.html",
+          "title": "“沙漠之花”——如果阴道过于干燥"
+        },
+        {
+          "href": "text/part0009_split_004.html",
+          "title": "“地板”坏了——生完孩子后，有些事不一样了"
+        },
+        {
+          "href": "text/part0010_split_000.html",
+          "title": "第五章\n  前男友的“大礼”——性病"
+        },
+        {
+          "href": "text/part0010_split_001.html",
+          "title": "HPV——奏响疣的“交响乐”"
+        },
+        {
+          "href": "text/part0010_split_002.html",
+          "title": "单纯疱疹病毒——一旦感染，反复发作"
+        },
+        {
+          "href": "text/part0010_split_003.html",
+          "title": "衣原体——“悄悄地进村，打枪的不要”"
+        },
+        {
+          "href": "text/part0010_split_004.html",
+          "title": "淋球菌——“买一送一”"
+        },
+        {
+          "href": "text/part0010_split_005.html",
+          "title": "浑水摸鱼的滴虫和支原体"
+        },
+        {
+          "href": "text/part0010_split_006.html",
+          "title": "最凶险的病原体——“霸天虎”“异形”和“终结者”"
+        },
+        {
+          "href": "text/part0011_split_000.html",
+          "title": "第六章\n  你的身体是令人神往的圣地"
+        },
+        {
+          "href": "text/part0011_split_001.html",
+          "title": "阴道"
+        },
+        {
+          "href": "text/part0011_split_002.html",
+          "title": "宫颈和宫颈癌的预防、筛查"
+        },
+        {
+          "href": "text/part0011_split_003.html",
+          "title": "子宫"
+        },
+        {
+          "href": "text/part0011_split_004.html",
+          "title": "输卵管"
+        },
+        {
+          "href": "text/part0011_split_005.html",
+          "title": "卵巢"
+        },
+        {
+          "href": "text/part0011_split_006.html",
+          "title": "子宫肌瘤、卵巢囊肿和子宫内膜息肉"
+        },
+        {
+          "href": "text/part0011_split_007.html",
+          "title": "早孕——来吧，我的小宝贝"
+        },
+        {
+          "href": "text/part0011_split_008.html",
+          "title": "如果不孕怎么办？"
+        },
+        {
+          "href": "text/part0012_split_000.html",
+          "title": "第七章\n  女性性激素的“好莱坞”"
+        },
+        {
+          "href": "text/part0012_split_001.html",
+          "title": "经前期综合征——月月嗥叫的“狼人”"
+        },
+        {
+          "href": "text/part0012_split_002.html",
+          "title": "围绝经期或更年期——燃烧的岁月"
+        },
+        {
+          "href": "text/part0012_split_003.html",
+          "title": "无助拜拜！激素替代疗法和健康地老去"
+        },
+        {
+          "href": "text/part0012_split_004.html",
+          "title": "更年期又如何？我还是一样酷！"
+        },
+        {
+          "href": "text/part0013_split_000.html",
+          "title": "第八章\n  避孕——胎儿请勿上车"
+        },
+        {
+          "href": "text/part0013_split_001.html",
+          "title": "激素避孕法——服用避孕药及其他"
+        },
+        {
+          "href": "text/part0013_split_002.html",
+          "title": "非激素避孕法——使用避孕套及其他"
+        },
+        {
+          "href": "text/part0013_split_003.html",
+          "title": "自然避孕法——酷女孩之选"
+        },
+        {
+          "href": "text/part0014_split_000.html",
+          "title": "第九章\n  乳房——有关这对突起的一切"
+        },
+        {
+          "href": "text/part0014_split_001.html",
+          "title": "乳房自查——是果冻型还是大米布丁型？"
+        },
+        {
+          "href": "text/part0014_split_002.html",
+          "title": "乳房良性病变"
+        },
+        {
+          "href": "text/part0014_split_003.html",
+          "title": "乳腺癌"
+        },
+        {
+          "href": "text/part0014_split_004.html",
+          "title": "无论是丰乳还是贫乳，都是好乳"
+        },
+        {
+          "href": "text/part0015_split_000.html",
+          "title": "第十章\n  比基尼泳裤里的其他居民——膀胱、尿道和肛门"
+        },
+        {
+          "href": "text/part0015_split_001.html",
+          "title": "膀胱和尿道"
+        },
+        {
+          "href": "text/part0015_split_002.html",
+          "title": "肛门"
+        },
+        {
+          "href": "text/part0015_split_003.html",
+          "title": "“后门”来客友善吗？"
+        },
+        {
+          "href": "text/part0016_split_000.html",
+          "title": "第十一章\n  妇科就诊小技巧"
+        },
+        {
+          "href": "text/part0016_split_001.html",
+          "title": "妇科医生实际在做什么？预防！"
+        },
+        {
+          "href": "text/part0016_split_002.html",
+          "title": "时间、爱与温柔"
+        },
+        {
+          "href": "text/part0017.html",
+          "title": "写在最后"
+        },
+        {
+          "href": "text/part0018.html",
+          "title": "致谢"
+        },
+        {
+          "href": "text/part0019.html",
+          "title": "参考文献"
+        },
+        {
+          "href": "titlepage.xhtml",
+          "title": "身体由我"
+        }
+      ],
+      "quotes": [
+        {
+          "id": "body-0",
+          "text": "然而，大部分女性对自己的身体所持的态度是不确定的，甚至是否定的，特别是对生殖器官的态度，提及时总是带有羞耻感。女性总会臆想出很多问题，却因为心存忌惮而不跟自己的闺蜜或医生讲。女性对生殖器官（甚至包括小腹）总是讳莫如深，这种态度就被妈妈传女儿这样一代代传了下来。",
+          "href": "text/part0005.html",
+          "chapter": "导言"
+        },
+        {
+          "id": "body-1",
+          "text": "如果你想看看自己的阴唇长什么样子，必须先知道一件事：标准的阴唇并不存在，就像不存在适合所有头型的标准发型和让所有人都合脚的标准鞋子一样。妇科医生吉利恩·劳埃德（Jillian Lloyd）于2004年在英国进行了一项著名研究，首次对不同女性的生殖器官存在的巨大差异进行了科学的测量和记录。受试者共有50人，她们分布在不同的年龄段，来自多个种族。结果大不相同！",
+          "href": "text/part0006_split_002.html",
+          "chapter": "阴唇——从“芭比娃娃式”到“蝙蝠女侠式”"
+        },
+        {
+          "id": "body-2",
+          "text": "只有知识储备升级了，人们才能消除对自己身体的忧虑，有心思去思考生活中其他重要的事情。因此，不该存在什么只有妇科医生才知道的秘密。我认为，那些有毅力在网飞（Netflix）一季季追剧的女性，掌握妇科基础知识完全不在话下。",
+          "href": "text/part0005.html",
+          "chapter": "导言"
+        },
+        {
+          "id": "body-3",
+          "text": "最理想的状态是，女性在还是小女孩时就对自己的身体很熟悉。关于妇科生理知识的学习，在女性进入青春期前就应该开始了。这样的话，我们就能好奇而坦然地接受自己的身体在青春期的变化，比如发现自己的生殖器官开始发育。渐渐地，我们会明白，阴道有时会分泌一些东西，有时会进入一些东西，但总体而言不会给我们造成太大的麻烦。我们也会理解自己的身体和情绪存在周期性变化，并为即将到来的变化做好准备。",
+          "href": "text/part0005.html",
+          "chapter": "导言"
+        },
+        {
+          "id": "body-4",
+          "text": "从个人层面来说，你有很多的时间去挖掘自己因青春期的到来和岁月的流逝而被埋藏在心底的渴求。你可以继续实现曾经被埋藏的梦想。努力奔向人生的下半程吧，要相信自己一定能实现梦想，发挥潜力，让自己成为自己一直想成为的那个人。",
+          "href": "text/part0012_split_002.html",
+          "chapter": "围绝经期或更年期——燃烧的岁月"
+        }
+      ]
+    }
+  ]
+}
